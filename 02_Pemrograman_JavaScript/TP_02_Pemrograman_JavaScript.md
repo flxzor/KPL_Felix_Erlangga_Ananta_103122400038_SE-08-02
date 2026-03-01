@@ -9,6 +9,30 @@ Tersedia di [index.js](./index.js)
 
 **Output**
 
+input awal ```[1, -2, 3, -4, 5, -6]```:
+![alt text](output/screenshot1.png)
 
+input soal ```2, 0, 26, 28, -2```
+![alt text](output/screenshot2.png)
+
+hasil akhir setelah program di fix
+![alt text](output/hasilakhir.png)
 
 **Deskripsi Program**
+Program ini berfungsi untuk mengalikan semua angka positif 
+```
+       if (arr[i] >= 0) {
+           result = result * arr[i];
+       }
+```
+
+didalam contoh awal, input yang diberikan adalah `[1, -2, 3, -4, 5, -6]` yang artinya program hanya akan mengalikan `1 * 3 * 5 ` dan hasilnya` 15 `
+
+lalu jika dimasukkan input soal `2, 0, 26, 28, -2` artinya program akan mmengalikan `2 * 0 * 26 * 28` maka hasilnya `0`
+
+- Kenapa Hasilnya 0?
+Karena semua bilangan dikalikan 0 pasti hasilnya 0
+- Bagaimana cara agar hasilnya 1456?
+Agar hasilnya tidak 0 maka kita harus mengubah agar 0 tidak ikut dihitung caranya yaitu dengan mengubah ```if (arr[i] >= 0)``` menjadi ```if (arr[i] > 0)```
+
+maka hasil akhirnya 1456 ![alt text](output/hasilakhir.png), terimakasih
