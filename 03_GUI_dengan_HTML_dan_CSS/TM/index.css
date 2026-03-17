@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inconsolata';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.kotak-input {
+    display: block;
+    resize: none;
+}
+
+p > span {
+    color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+    font-weight: bold;
+}
