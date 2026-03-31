@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inconsolata';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button {
+    border: none;
+}
+.kotak-input {
+    display: block;
+    resize: none;
+}
+
+p > span {
+    color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+    font-weight: bold;
+}
+
+.grup-tg {
+    margin-top: 5px; /* ini opsional sih biar ada spasinya antara button */ 
+}
+.kotak-input {
+    background-color: #FFFFFF;
+}
+.light-mode {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.dark-mode {
+    background-color: #171b25;
+    color: #EBECF7;
+}
+.dark-mode .kotak-input {
+    background-color: #2e3443;
+    color: #EBECF7;
+}
+.dark-mode button {
+    background-color: #29ddcc;
+    color: #2e3443;
+}
+.sepia-mode {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+.sepia-mode button {
+    background-color: #29ddcc;
+    color: #2e3443;
+}
