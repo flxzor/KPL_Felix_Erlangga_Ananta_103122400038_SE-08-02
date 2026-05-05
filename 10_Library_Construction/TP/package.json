@@ -1,0 +1,13 @@
+{
+  "name": "tp-letterword-count",
+  "version": "1.0.0",
+  "description": "Utility sederhana untuk menghitung jumlah huruf (A-Z) dan kata dari sebuah string.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "Felix Erlangga Ananta",
+  "license": "ISC"
+}
