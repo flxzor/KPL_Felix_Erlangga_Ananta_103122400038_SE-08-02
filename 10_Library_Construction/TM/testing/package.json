@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "libr": "file:../mtk-gampang"
+  }
+}

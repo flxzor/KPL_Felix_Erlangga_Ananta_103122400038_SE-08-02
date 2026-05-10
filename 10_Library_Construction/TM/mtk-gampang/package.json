@@ -1,0 +1,7 @@
+{
+  "name": "libr",
+  "version": "1.0.0",
+  "description": "Pustaka matematika sederhana",
+  "main": "index.js",
+  "type": "module"
+}
