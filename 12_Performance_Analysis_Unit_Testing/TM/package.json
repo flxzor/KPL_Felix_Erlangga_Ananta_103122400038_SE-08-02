@@ -1,0 +1,9 @@
+{
+  "name": "tambah-pengitung",
+  "version": "1.0.0",
+  "description": "Program dan unit test fungsi tambahPengitung",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
